@@ -13,7 +13,7 @@
 }
 
 // Several accent colors, choose one, or create your own!
-$accent-color: #800000;    // original =)
+$accent-color: #FFFFFF;    // original =)
 //$accent-color: #C38FD6;  // velvet
 //$accent-color: #8FD6B3;  // greenish
 //$accent-color: #35B4DE;  // bluinsh
@@ -98,7 +98,7 @@ blockquote {
 //                    Links
 //********************************************************
 a {
-  color: $accent-color;
+  color: #800000;
 }
 
 //********************************************************
@@ -244,6 +244,7 @@ nav a {
   font-family: Ubuntu;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
+  color: #26292E;
 }
 nav.navbar {
   -webkit-transition: all 0.7s ease;
@@ -254,17 +255,22 @@ nav.navbar.shrink {
 }
 .navbar-brand {
   font-size: 30px;
-  color: $accent-color;
+  text-transform: uppercase;
+  color: #ffffff;
 
 }
 nav.shrink a {
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 nav.shrink .navbar-brand {
   font-size: 25px;
   height: inherit;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .navbar .navbar-nav {
   display: inline-block;
