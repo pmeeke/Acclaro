@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: Acclaro blog
+description: Information and happennings about everything around the Acclaro networks
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://streetturtle.github.io
@@ -14,8 +14,8 @@ share:
   facebook: true
   twitter: true
   gplus: true
-  linkedin: true
-  pinterest: true
+  linkedin: false
+  pinterest: false
   email: true
 
 social:
